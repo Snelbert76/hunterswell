@@ -1,0 +1,117 @@
+:root {
+  --bg: #070b12;
+  --bg-2: #0b1018;
+  --panel: rgba(9, 12, 18, 0.86);
+  --panel-2: rgba(16, 18, 22, 0.76);
+  --line: rgba(185, 152, 90, 0.22);
+  --line-strong: rgba(224, 195, 132, 0.42);
+  --text: #f5f4f0;
+  --muted: #a9a49a;
+  --soft: #746f67;
+  --blue: #b9985a;
+  --blue-strong: #d9bd78;
+  --brass: #b9985a;
+  --brass-soft: rgba(185, 152, 90, 0.72);
+  --shadow: 0 30px 100px rgba(0, 0, 0, 0.62);
+}
+
+body {
+  background:
+    radial-gradient(circle at 76% 18%, rgba(185, 152, 90, 0.15), transparent 30%),
+    radial-gradient(circle at 18% 0%, rgba(255, 244, 210, 0.045), transparent 34%),
+    linear-gradient(180deg, #070b12 0%, #06090f 46%, #030508 100%);
+}
+
+body::before {
+  opacity: 0.18;
+  background-size: 92px 92px;
+}
+
+.site-header {
+  background: rgba(7, 11, 18, 0.72);
+}
+
+.site-header.scrolled,
+.site-nav.open {
+  background: rgba(7, 11, 18, 0.94);
+}
+
+.brand-logo {
+  filter: drop-shadow(0 0 20px rgba(185, 152, 90, 0.12));
+}
+
+.site-nav,
+.header-button,
+.button {
+  color: #f5f4f0;
+}
+
+.button-primary {
+  background: linear-gradient(135deg, #c5a264, #8f6f3d);
+  border-color: rgba(230, 203, 142, 0.72);
+  box-shadow: 0 18px 52px rgba(95, 69, 28, 0.34);
+}
+
+.hero {
+  min-height: 735px;
+  background:
+    linear-gradient(90deg, rgba(7, 11, 18, 0.96) 0%, rgba(7, 11, 18, 0.82) 42%, rgba(7, 11, 18, 0.46) 100%);
+}
+
+.hero-atmosphere {
+  background:
+    radial-gradient(circle at 74% 44%, rgba(185, 152, 90, 0.22), transparent 27%),
+    radial-gradient(circle at 59% 67%, rgba(245, 244, 240, 0.045), transparent 36%),
+    linear-gradient(90deg, rgba(7,11,18,0.05), rgba(7,11,18,0.88) 48%, rgba(7,11,18,0.10));
+}
+
+h1 {
+  color: #f5f4f0;
+  font-weight: 650;
+}
+
+.hero-text {
+  color: #c9c3b8;
+}
+
+.precision-frame {
+  border-color: rgba(185, 152, 90, 0.32);
+  background:
+    linear-gradient(rgba(185,152,90,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(185,152,90,0.04) 1px, transparent 1px),
+    radial-gradient(circle at 50% 44%, rgba(185, 152, 90, 0.15), transparent 42%),
+    linear-gradient(145deg, rgba(245,244,240,0.06), rgba(245,244,240,0.012));
+}
+
+.console-panel {
+  background: rgba(7, 9, 13, 0.74);
+  border-color: rgba(185,152,90,0.28);
+}
+
+.console-panel small,
+.metric p,
+.portfolio-card span,
+.footer-inner,
+.partner-inner strong {
+  color: #a9a49a;
+}
+
+.venture-card,
+.portfolio-card {
+  background: rgba(7, 11, 18, 0.92);
+}
+
+.advisory-card,
+.focus-card,
+.quote-card,
+.insight-card,
+.contact-card {
+  background:
+    radial-gradient(circle at 100% 100%, rgba(185,152,90,0.13), transparent 35%),
+    linear-gradient(145deg, rgba(245,244,240,0.05), rgba(245,244,240,0.014));
+}
+
+.partner-strip,
+.site-footer {
+  background: rgba(4, 6, 10, 0.64);
+}
