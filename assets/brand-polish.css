@@ -71,7 +71,8 @@ h1 {
 }
 
 .hero-text,
-.section-intro {
+.section-intro,
+.about-profile-card p {
   color: #c9c3b8;
 }
 
@@ -115,10 +116,51 @@ h1 {
 .quote-card,
 .insight-card,
 .contact-card,
-.ecosystem-card {
+.ecosystem-card,
+.about-profile-card {
   background:
     radial-gradient(circle at 100% 100%, rgba(185,152,90,0.13), transparent 35%),
     linear-gradient(145deg, rgba(245,244,240,0.05), rgba(245,244,240,0.014));
+}
+
+.question-card li::before {
+  content: "?";
+}
+
+.decision-section p,
+.about-hero p,
+.investment-copy p {
+  font-size: 17px;
+}
+
+.about-hero {
+  min-height: 640px;
+}
+
+.about-hero-inner {
+  grid-template-columns: minmax(0, 1.1fr) minmax(320px, 0.62fr);
+}
+
+.about-profile-card {
+  align-self: center;
+  border: 1px solid var(--line);
+  padding: 38px;
+  box-shadow: var(--shadow);
+}
+
+.about-profile-card span {
+  display: block;
+  margin-bottom: 18px;
+  color: var(--brass);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.about-profile-card h2 {
+  margin-bottom: 14px;
+  font-size: clamp(32px, 3vw, 46px);
 }
 
 .ecosystem-section {
@@ -206,7 +248,8 @@ h1 {
 
 @media (max-width: 1180px) {
   .ecosystem-grid,
-  .affiliation-inner {
+  .affiliation-inner,
+  .about-hero-inner {
     grid-template-columns: 1fr;
   }
 
