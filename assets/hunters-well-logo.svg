@@ -1,22 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 96" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 96" role="img" aria-labelledby="title desc">
   <title id="title">Hunters Well logo</title>
-  <desc id="desc">Hunters Well monogram and wordmark.</desc>
+  <desc id="desc">Hunters Well HW monogram and wordmark in champagne brass.</desc>
   <defs>
-    <linearGradient id="hwStroke" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="0.48" stop-color="#dce7ff"/>
-      <stop offset="1" stop-color="#8faaff"/>
+    <linearGradient id="brass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4dfaa"/>
+      <stop offset="0.42" stop-color="#b9985a"/>
+      <stop offset="1" stop-color="#806337"/>
     </linearGradient>
   </defs>
-  <g fill="none" stroke="url(#hwStroke)" stroke-linecap="square" stroke-linejoin="miter">
-    <path d="M18 18 V78" stroke-width="3"/>
-    <path d="M38 18 V78" stroke-width="3"/>
-    <path d="M18 48 H38" stroke-width="2" opacity="0.9"/>
-    <path d="M56 18 V78" stroke-width="3"/>
-    <path d="M76 18 V78" stroke-width="3"/>
-    <path d="M56 28 L66 78 L76 28" stroke-width="3"/>
+
+  <g fill="none" stroke="url(#brass)" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M18 20 V76" stroke-width="3"/>
+    <path d="M114 20 V76" stroke-width="3"/>
+
+    <path d="M36 30 V66" stroke-width="5"/>
+    <path d="M54 30 V66" stroke-width="5"/>
+    <path d="M36 48 H54" stroke-width="5"/>
+
+    <path d="M70 30 L78 66 L88 40 L98 66 L106 30" stroke-width="5"/>
   </g>
-  <text x="112" y="55" fill="#ffffff" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="800" letter-spacing="8">HUNTERS WELL</text>
-  <line x1="112" y1="72" x2="256" y2="72" stroke="#8faaff" stroke-width="1" opacity="0.75"/>
-  <text x="278" y="76" fill="#9fb0cf" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="700" letter-spacing="4">STRATEGY. TECHNOLOGY. GROWTH.</text>
+
+  <text x="148" y="58" fill="#b9985a" font-family="Inter, Arial, Helvetica, sans-serif" font-size="28" font-weight="800" letter-spacing="9">HUNTERS WELL</text>
 </svg>
