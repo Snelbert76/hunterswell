@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 96" role="img" aria-labelledby="title desc">
+  <title id="title">Hunters Well logo</title>
+  <desc id="desc">Hunters Well monogram and wordmark.</desc>
+  <defs>
+    <linearGradient id="hwStroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.48" stop-color="#dce7ff"/>
+      <stop offset="1" stop-color="#8faaff"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#hwStroke)" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M18 18 V78" stroke-width="3"/>
+    <path d="M38 18 V78" stroke-width="3"/>
+    <path d="M18 48 H38" stroke-width="2" opacity="0.9"/>
+    <path d="M56 18 V78" stroke-width="3"/>
+    <path d="M76 18 V78" stroke-width="3"/>
+    <path d="M56 28 L66 78 L76 28" stroke-width="3"/>
+  </g>
+  <text x="112" y="55" fill="#ffffff" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="800" letter-spacing="8">HUNTERS WELL</text>
+  <line x1="112" y1="72" x2="256" y2="72" stroke="#8faaff" stroke-width="1" opacity="0.75"/>
+  <text x="278" y="76" fill="#9fb0cf" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="700" letter-spacing="4">STRATEGY. TECHNOLOGY. GROWTH.</text>
+</svg>
