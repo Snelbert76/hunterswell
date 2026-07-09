@@ -70,8 +70,15 @@ h1 {
   font-weight: 650;
 }
 
-.hero-text {
+.hero-text,
+.section-intro {
   color: #c9c3b8;
+}
+
+.section-intro {
+  max-width: 660px;
+  margin: -4px 0 0;
+  font-size: 16px;
 }
 
 .precision-frame {
@@ -92,7 +99,9 @@ h1 {
 .metric p,
 .portfolio-card span,
 .footer-inner,
-.partner-inner strong {
+.partner-inner strong,
+.affiliation-inner strong,
+.ecosystem-card em {
   color: #a9a49a;
 }
 
@@ -105,13 +114,103 @@ h1 {
 .focus-card,
 .quote-card,
 .insight-card,
-.contact-card {
+.contact-card,
+.ecosystem-card {
   background:
     radial-gradient(circle at 100% 100%, rgba(185,152,90,0.13), transparent 35%),
     linear-gradient(145deg, rgba(245,244,240,0.05), rgba(245,244,240,0.014));
 }
 
+.ecosystem-section {
+  padding-top: 62px;
+}
+
+.ecosystem-grid {
+  display: grid;
+  grid-template-columns: 1.25fr 0.9fr 0.9fr;
+  gap: 1px;
+  margin-top: 28px;
+  border: 1px solid var(--line);
+  background: var(--line);
+  box-shadow: var(--shadow);
+}
+
+.ecosystem-card {
+  min-height: 360px;
+  padding: 34px;
+}
+
+.ecosystem-card span {
+  display: block;
+  margin-bottom: 28px;
+  color: var(--brass);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.ecosystem-card ul {
+  display: grid;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.ecosystem-card li {
+  display: grid;
+  gap: 4px;
+}
+
+.ecosystem-card strong {
+  color: #f5f4f0;
+  font-size: 17px;
+  letter-spacing: -0.02em;
+}
+
+.ecosystem-card em {
+  font-style: normal;
+  font-size: 13px;
+}
+
 .partner-strip,
 .site-footer {
   background: rgba(4, 6, 10, 0.64);
+}
+
+.affiliation-strip {
+  padding: 44px 0 24px;
+}
+
+.affiliation-inner {
+  display: grid;
+  grid-template-columns: 1.45fr repeat(6, auto);
+  gap: 30px;
+  align-items: center;
+}
+
+.affiliation-inner span {
+  color: #d0c8ba;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.affiliation-inner strong {
+  white-space: nowrap;
+  font-size: 16px;
+  font-weight: 650;
+}
+
+@media (max-width: 1180px) {
+  .ecosystem-grid,
+  .affiliation-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .ecosystem-card {
+    min-height: auto;
+  }
 }
