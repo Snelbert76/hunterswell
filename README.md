@@ -1,5 +1,7 @@
 # Hunters Well website
 
+Deployment test.
+
 A simple static website for Hunters Well Ltd.
 
 No build step is required. The live site only needs these files:
