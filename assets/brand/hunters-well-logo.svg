@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 120" role="img" aria-labelledby="title desc">
+  <title id="title">Hunters Well logo</title>
+  <desc id="desc">Hunters Well approved brass monogram and wordmark.</desc>
+  <defs>
+    <linearGradient id="hwBrass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4dfaa"/>
+      <stop offset="0.46" stop-color="#b9985a"/>
+      <stop offset="1" stop-color="#7f6336"/>
+    </linearGradient>
+  </defs>
+
+  <g fill="url(#hwBrass)">
+    <rect x="22" y="24" width="3.2" height="72"/>
+    <rect x="140" y="24" width="3.2" height="72"/>
+
+    <rect x="60" y="36" width="3.2" height="60" transform="rotate(-15 61.6 66)" opacity="0.96"/>
+    <rect x="94" y="36" width="3.2" height="60" transform="rotate(-15 95.6 66)" opacity="0.96"/>
+
+    <text x="60" y="75" font-family="Inter, Arial, Helvetica, sans-serif" font-size="32" font-weight="800" letter-spacing="-4">HW</text>
+    <text x="190" y="75" font-family="Inter, Arial, Helvetica, sans-serif" font-size="34" font-weight="800" letter-spacing="17">HUNTERS WELL</text>
+  </g>
+</svg>
