@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Hunters Well brand lockup</title>
+  <desc id="desc">Hunters Well full logo on a dark premium background.</desc>
+  <defs>
+    <radialGradient id="bg1" cx="50%" cy="45%" r="65%">
+      <stop offset="0" stop-color="#0d1a2a"/>
+      <stop offset="0.56" stop-color="#030913"/>
+      <stop offset="1" stop-color="#02070d"/>
+    </radialGradient>
+    <radialGradient id="bg2" cx="28%" cy="48%" r="35%">
+      <stop offset="0" stop-color="#284d91" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#02070d" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="stroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.5" stop-color="#dce7ff"/>
+      <stop offset="1" stop-color="#8faaff"/>
+    </linearGradient>
+    <filter id="glow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg1)"/>
+  <rect width="1600" height="900" fill="url(#bg2)"/>
+  <g opacity="0.32">
+    <path d="M0 520 C300 420 470 620 760 495 S1240 310 1600 440" fill="none" stroke="#8faaff" stroke-opacity="0.22" stroke-width="2"/>
+    <path d="M0 575 C310 475 510 665 810 535 S1260 380 1600 505" fill="none" stroke="#8faaff" stroke-opacity="0.12" stroke-width="2"/>
+  </g>
+  <g transform="translate(230 300)" filter="url(#glow)">
+    <g fill="none" stroke="url(#stroke)" stroke-linecap="square" stroke-linejoin="miter">
+      <path d="M0 0 V210" stroke-width="10"/>
+      <path d="M70 0 V210" stroke-width="10"/>
+      <path d="M0 105 H70" stroke-width="7" opacity="0.92"/>
+      <path d="M130 0 V210" stroke-width="10"/>
+      <path d="M210 0 V210" stroke-width="10"/>
+      <path d="M130 35 L170 210 L210 35" stroke-width="10"/>
+    </g>
+  </g>
+  <text x="560" y="410" fill="#ffffff" font-family="Inter, Arial, Helvetica, sans-serif" font-size="72" font-weight="800" letter-spacing="26">HUNTERS WELL</text>
+  <line x1="700" y1="500" x2="900" y2="500" stroke="#8faaff" stroke-width="2" opacity="0.7"/>
+  <text x="560" y="580" fill="#9fb0cf" font-family="Inter, Arial, Helvetica, sans-serif" font-size="30" font-weight="700" letter-spacing="16">STRATEGY. TECHNOLOGY. GROWTH.</text>
+</svg>
