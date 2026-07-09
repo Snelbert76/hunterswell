@@ -7,10 +7,42 @@ No build step is required. The live site only needs these files:
 - `index.html`
 - `assets/styles.css`
 - `assets/script.js`
+- supporting static assets and pages
+
+## Deploy using Git on the hosting server
+
+The preferred live setup is for this repository to be checked out directly into:
+
+```text
+/home/snelbert/web/hunterswell.co.uk/public_html
+```
+
+Manual deployment:
+
+```bash
+cd /home/snelbert/web/hunterswell.co.uk/public_html
+git pull origin main
+```
+
+## Automatic deployment
+
+This repo includes a secure GitHub webhook deployment endpoint:
+
+```text
+deploy.php
+```
+
+It verifies GitHub's `X-Hub-Signature-256` header, accepts only push events to `main`, and then updates the live checkout.
+
+Full setup instructions are in:
+
+```text
+DEPLOYMENT.md
+```
 
 ## Deploy using SFTP
 
-Upload the contents of this repository to the public web root on your hosting package, usually one of:
+You can also upload the repository contents to the public web root manually using SFTP, usually one of:
 
 - `public_html`
 - `htdocs`
@@ -24,24 +56,6 @@ public_html/index.html
 public_html/assets/styles.css
 public_html/assets/script.js
 ```
-
-## Deploy using Git on the hosting server
-
-If the hosting server supports SSH and Git, you can clone the repository into the web root:
-
-```bash
-cd ~/public_html
-git clone https://github.com/Snelbert76/hunterswell.git .
-```
-
-For future updates:
-
-```bash
-cd ~/public_html
-git pull origin main
-```
-
-If the folder is not empty, clone somewhere temporary first and then copy the files into the web root.
 
 ## Local preview
 
